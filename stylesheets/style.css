@@ -1242,6 +1242,7 @@ only screen and (                min-resolution: 2dppx) {
 .card.card-hover:hover {
     box-shadow: 0 14px 25px rgba(0,0,0,0.16);
 }
+.card>*:last-child {margin-bottom: 0;}
 .border-dashed {border-style: dashed; border-color: rgba(211, 211, 211, 0.4);}
 .minWidth {max-width: }
 .my {margin-top: 20px; margin-bottom: 20px;}
