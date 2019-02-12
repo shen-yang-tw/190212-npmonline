@@ -2,8 +2,6 @@
 故宮銷售網頁v1.0 Sep 2013
 */
 
-/*@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300);*/
-
 body {
 	background: #fff;
 	color: #424242;
@@ -1227,4 +1225,61 @@ only screen and (                min-resolution: 2dppx) {
     left: 0;
     margin: 0 10px 0 0;
     position: relative;
+}
+
+
+/* New Add-2019-2-12 */
+.flex {display: flex;}
+.flex>* {margin: 0 10px;}
+.flex-center {justify-content: center;}
+.flex-between {justify-content: space-between;}
+.card {
+    background: #fff;
+    color: #666;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    padding: 10px;
+}
+.card.card-hover:hover {
+    box-shadow: 0 14px 25px rgba(0,0,0,0.16);
+}
+.border-dashed {border-style: dashed; border-color: rgba(211, 211, 211, 0.4);}
+.minWidth {max-width: }
+.my {margin-top: 20px; margin-bottom: 20px;}
+.mt {margin-top: 40px;}
+.mb {margin-bottom: 40px;}
+
+@media (min-width:960px) {
+.min_width1_2\!\@m {min-width: calc(100% / 2) !important;}
+.min_width1_3\!\@m {min-width: calc(100% / 3) !important;}
+.min_width2_3\!\@m {min-width: calc(100% * 2 / 3) !important;}
+.min_width1_4\!\@m {min-width: calc(100% / 4) !important;}
+.min_width3_4\!\@m {min-width: calc(100% * 3 / 4) !important;}
+.min_width1_5\!\@m {min-width: calc(100% / 5) !important;}
+.min_width2_5\!\@m {min-width: calc(100% * 2 / 5) !important;}
+.min_width3_5\!\@m {min-width: calc(100% * 3 / 5) !important;}
+.min_width4_5\!\@m {min-width: calc(100% * 4 / 5) !important;}
+.min_width1_6\!\@m {min-width: calc(100% / 6) !important;}
+.min_width5_6\!\@m {min-width: calc(100% * 5 / 6) !important;}
+.min_width1_7\!\@m {min-width: calc(100% / 7) !important;}
+.min_width2_7\!\@m {min-width: calc(100% * 2 / 7) !important;}
+.min_width3_7\!\@m {min-width: calc(100% * 3 / 7) !important;}
+.min_width4_7\!\@m {min-width: calc(100% * 4 / 7) !important;}
+.min_width5_7\!\@m {min-width: calc(100% * 5 / 7) !important;}
+.min_width6_7\!\@m {min-width: calc(100% * 6 / 7) !important;}
+.min_width1_8\!\@m {min-width: calc(100% / 8) !important;}
+.min_width3_8\!\@m {min-width: calc(100% * 3 / 8) !important;}
+.min_width5_8\!\@m {min-width: calc(100% * 5 / 8) !important;}
+.min_width7_8\!\@m {min-width: calc(100% * 7 / 8) !important;}
+.min_width1_9\!\@m {min-width: calc(100% / 9) !important;}
+.min_width2_9\!\@m {min-width: calc(100% * 2 / 9) !important;}
+.min_width4_9\!\@m {min-width: calc(100% * 4 / 9) !important;}
+.min_width5_9\!\@m {min-width: calc(100% * 5 / 9) !important;}
+.min_width7_9\!\@m {min-width: calc(100% * 7 / 9) !important;}
+.min_width8_9\!\@m {min-width: calc(100% * 8 / 9) !important;}
+.min_width1_10\!\@m {min-width: calc(100% / 10) !important;}
+.min_width3_10\!\@m {min-width: calc(100% * 3 / 10) !important;}
+.min_width7_10\!\@m {min-width: calc(100% * 7 / 10) !important;}
+.min_width9_10\!\@m {min-width: calc(100% * 9 / 10) !important;}
+.max_width1_5\!\@m {max-width: calc(100% / 5) !important;}
+
 }
