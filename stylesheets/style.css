@@ -1229,6 +1229,7 @@ only screen and (                min-resolution: 2dppx) {
 
 
 /* New Add-2019-2-12 */
+h1 {font-size: 2.5rem !important;}
 .flex {display: flex;}
 .flex>* {margin: 0 10px;}
 .flex-center {justify-content: center;}
@@ -1237,17 +1238,21 @@ only screen and (                min-resolution: 2dppx) {
     background: #fff;
     color: #666;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    padding: 10px;
+    padding: 20px;
+    border-radius: 20px;
 }
 .card.card-hover:hover {
     box-shadow: 0 14px 25px rgba(0,0,0,0.16);
 }
 .card>*:last-child {margin-bottom: 0;}
 .border-dashed {border-style: dashed; border-color: rgba(211, 211, 211, 0.4);}
-.minWidth {max-width: }
+.m-0 {margin: 0;}
 .my {margin-top: 20px; margin-bottom: 20px;}
 .mt {margin-top: 40px;}
 .mb {margin-bottom: 40px;}
+.mb-1 {margin-bottom: 5px;}
+.mb-2 {margin-bottom: 10px;}
+.linkline {text-decoration: underline !important;}
 
 @media (min-width:960px) {
 .min_width1_2\!\@m {min-width: calc(100% / 2) !important;}
