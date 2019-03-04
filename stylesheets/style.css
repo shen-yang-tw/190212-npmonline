@@ -1229,6 +1229,7 @@ only screen and (                min-resolution: 2dppx) {
 
 
 /* New Add-2019-2-12 */
+* {text-transform: none !important; letter-spacing: normal !important;}
 .fontH1 {font-size: 3rem !important;}
 .borderBtm {border-bottom: 1px dotted rgba(128, 128, 128, 0.4); padding-bottom: 10px;}
 .flex {display: flex;}
