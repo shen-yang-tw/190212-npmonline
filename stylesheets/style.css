@@ -1230,6 +1230,8 @@ only screen and (                min-resolution: 2dppx) {
 
 /* New Add-2019-2-12 */
 * {text-transform: none !important; letter-spacing: normal !important;}
+.link {color: #ad8237;}
+.link:hover {color: #976E25;}
 .fontH1 {font-size: 3rem !important;}
 .borderBtm {border-bottom: 1px dotted rgba(128, 128, 128, 0.4); padding-bottom: 10px;}
 .flex {display: flex;}
@@ -1251,12 +1253,24 @@ only screen and (                min-resolution: 2dppx) {
 .m-0 {margin: 0;}
 .my {margin-top: 20px; margin-bottom: 20px;}
 .mt {margin-top: 40px;}
+.mt-0 {margin-top: 0;}
 .mb {margin-bottom: 40px;}
 .mb-1 {margin-bottom: 5px;}
 .mb-2 {margin-bottom: 10px;}
+.pt-0 {padding-top: 0;}
+.pt-3 {padding-top: 30px;}
 .linkline {text-decoration: underline !important;}
+.banner {
+    width: 100%;
+    height: 280px;
+    background: url(../images/banner.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top: 85px;
+}
 
 @media (min-width:960px) {
+.pt-md-3 {padding-top: 30px;}
+
 .min_width1_2\!\@m {min-width: calc(100% / 2) !important;}
 .min_width1_3\!\@m {min-width: calc(100% / 3) !important;}
 .min_width2_3\!\@m {min-width: calc(100% * 2 / 3) !important;}
@@ -1289,5 +1303,7 @@ only screen and (                min-resolution: 2dppx) {
 .min_width7_10\!\@m {min-width: calc(100% * 7 / 10) !important;}
 .min_width9_10\!\@m {min-width: calc(100% * 9 / 10) !important;}
 .max_width1_5\!\@m {max-width: calc(100% / 5) !important;}
+
+.banner {height: 450px;}
 
 }
